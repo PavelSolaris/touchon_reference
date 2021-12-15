@@ -18,6 +18,8 @@ nav:
     - 'Описание': 'heat_system/heat_overview.md'
     - 'Монтаж': 'heat_system/heat_install.md'
 #   - 'Возможные неисправности': 'heat_system/heat_malfunction.md'
+  - 'Водоснабжение':
+    - 'Подключение': 'water_system/water_install.md'
 
 theme: 
   name: readthedocs
