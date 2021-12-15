@@ -1,5 +1,8 @@
 site_name: TouchOn documentation
+
 site_url: https://touchon-docs-xu6d2.ondigitalocean.app
+
+site_description: 'Документация системы домашней автоматизации TouchOn'
 
 nav:
   - 'Главная': index.md
@@ -20,7 +23,3 @@ theme:
 
 extra_css:
   - css/custom.css
-
-plugins:
-  - search:
-    lang: ru
