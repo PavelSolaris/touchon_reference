@@ -1,0 +1,26 @@
+site_name: TouchOn documentation
+site_url: https://touchon-docs-xu6d2.ondigitalocean.app
+
+nav:
+  - 'Главная': index.md
+  - 'Возможные неисправности': malfunction.md
+  - 'Освещение':
+    - 'Описание': 'light_system/light_overview.md'
+    - 'Подключение': 'light_system/light_install.md'
+    - 'Возможные неисправности': 'light_system/light_malfunction.md'
+  - 'Отопление':
+    - 'Описание': 'heat_system/heat_overview.md'
+    - 'Монтаж': 'heat_system/heat_install.md'
+    - 'Возможные неисправности': 'heat_system/heat_malfunction.md'
+
+theme: 
+  name: readthedocs
+  highlightjs: false
+  hljs_style: agate
+
+extra_css:
+  - css/custom.css
+
+plugins:
+  - search:
+    lang: ru
