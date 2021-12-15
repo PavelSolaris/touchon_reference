@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="canonical" href="https://touchon-docs-xu6d2.ondigitalocean.app/water_system/water_install/">
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Подключение - TouchOn documentation</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../../css/theme.css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" />
+  <link href="../../css/custom.css" rel="stylesheet" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "\u041f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435";
+    var mkdocs_page_input_path = "water_system/water_install.md";
+    var mkdocs_page_url = "/water_system/water_install/";
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> TouchOn documentation</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../..">Главная</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Освещение</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../light_system/light_overview/">Описание</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../light_system/light_install/">Подключение</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Розетки</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../power_supply/power_overview/">Описание</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../power_supply/power_install/">Подключение</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Отопление</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../heat_system/heat_overview/">Описание</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../heat_system/heat_install/">Монтаж</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Водоснабжение</span></p>
+                <ul class="current">
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Подключение</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#_2">Подключение датчика протечки</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_3">Двухходовой клапан</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_4">Насосы</a>
+    </li>
+    </ul>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">TouchOn documentation</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Водоснабжение &raquo;</li>
+        
+      
+    
+    <li>Подключение</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="_1">Водоснабжение</h1>
+<ul>
+<li>
+<p>Датчик протечки монтируется на пол в местах потенциально возможной протечки.
+  Подключается витой парой UTP 5e</p>
+</li>
+<li>
+<p>Клапан перекрытия воды  с сервоприводом на 220В. Подключение кабелем ШВВП или
+  ПВС 3х075</p>
+</li>
+</ul>
+<h2 id="_2">Подключение датчика протечки</h2>
+<p>К контроллеру TouchOn можно подключать любые датчики протечки. Датчики протечки
+подключаются на любые стандартные входы: P0-P6, P15-P21</p>
+<p>Характеристики датчика:</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Электропитание</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Протокол</td>
+<td>Сухой контакт NO</td>
+</tr>
+<tr>
+<td>Способ монтажа</td>
+<td>Напольный</td>
+</tr>
+</tbody>
+</table>
+<p>Датчик протечки Теко Астра-361:</p>
+<p><img alt="Датчик протечки Астра-361" src="../../img/water_system/teko_sensor.png" /></p>
+<p>Пример подключения датчика Теко Астра-361:</p>
+<p><img alt="Подключение датчика Астра-361" src="../../img/water_system/teko_install.png" /></p>
+<h2 id="_3">Двухходовой клапан</h2>
+<p>Для обеспечения перекрытия подачи воды в случае аварии или протечки, необходимо
+установить на трубы подвода воды электрические 2-х ходовые зональные клапаны.
+Время открывания и закрывания клапана задается программно. Сервоприводы клапанов
+подключаются к любому выходу контроллера на NO контакт. Соответственно для
+перекрытия воды используется два клапана (холодная, горячая вода) и 4 выхода
+контроллера.  </p>
+<p>Используемые модели: </p>
+<ul>
+<li>
+<p>STOUT SVM-0070-200020 </p>
+</li>
+<li>
+<p>Neptun AquaControl 220В</p>
+</li>
+<li>
+<p>Или аналог. </p>
+</li>
+</ul>
+<p>Пример подключения  Neptun AquaControl 220В:</p>
+<p><img alt="Схема подключения клапана Neptun" src="../../img/water_system/neptun_install.png" /></p>
+<h2 id="_4">Насосы</h2>
+<p>Подключение насосов, которые играют важную роль в жизнедеятельности системы
+отопления и водоснабжения и которые в основном  в работе (скважинные насосы,
+циркуляционные насосы, компрессоры биостанций и др.), подключаются на
+нормально-замкнутые контакты контроллера. Контакты NC есть на портах Р10-Р13 и
+Р25-Р28. </p>
+<p>Насосы, которые в основном не в работе и включаются только по каким-то нуждам
+или условиям (насос полива или циркуляционный насос отопления бани), лучше
+подключать на нормально-открытые контакты портов.</p>
+<p>Схема подключения:</p>
+<p><img alt="Схема подключения насосов" src="../../img/water_system/pump_install.png" /></p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="../../heat_system/heat_install/" class="btn btn-neutral" title="Монтаж"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../../heat_system/heat_install/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
