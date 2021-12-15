@@ -1,57 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://touchon-docs-xu6d2.ondigitalocean.app/</loc>
+         <loc>https://touchondocs.github.io/touchon_reference/</loc>
          <lastmod>2021-12-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://touchon-docs-xu6d2.ondigitalocean.app/malfunction/</loc>
+         <loc>https://touchondocs.github.io/touchon_reference/malfunction/</loc>
          <lastmod>2021-12-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://touchon-docs-xu6d2.ondigitalocean.app/heat_system/heat_install/</loc>
+         <loc>https://touchondocs.github.io/touchon_reference/heat_system/heat_install/</loc>
          <lastmod>2021-12-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://touchon-docs-xu6d2.ondigitalocean.app/heat_system/heat_malfunction/</loc>
+         <loc>https://touchondocs.github.io/touchon_reference/heat_system/heat_malfunction/</loc>
          <lastmod>2021-12-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://touchon-docs-xu6d2.ondigitalocean.app/heat_system/heat_overview/</loc>
+         <loc>https://touchondocs.github.io/touchon_reference/heat_system/heat_overview/</loc>
          <lastmod>2021-12-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://touchon-docs-xu6d2.ondigitalocean.app/light_system/light_install/</loc>
+         <loc>https://touchondocs.github.io/touchon_reference/light_system/light_install/</loc>
          <lastmod>2021-12-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://touchon-docs-xu6d2.ondigitalocean.app/light_system/light_malfunction/</loc>
+         <loc>https://touchondocs.github.io/touchon_reference/light_system/light_malfunction/</loc>
          <lastmod>2021-12-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://touchon-docs-xu6d2.ondigitalocean.app/light_system/light_overview/</loc>
+         <loc>https://touchondocs.github.io/touchon_reference/light_system/light_overview/</loc>
          <lastmod>2021-12-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://touchon-docs-xu6d2.ondigitalocean.app/power_supply/power_install/</loc>
+         <loc>https://touchondocs.github.io/touchon_reference/power_supply/power_install/</loc>
          <lastmod>2021-12-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://touchon-docs-xu6d2.ondigitalocean.app/power_supply/power_overview/</loc>
+         <loc>https://touchondocs.github.io/touchon_reference/power_supply/power_overview/</loc>
          <lastmod>2021-12-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://touchon-docs-xu6d2.ondigitalocean.app/water_system/water_install/</loc>
+         <loc>https://touchondocs.github.io/touchon_reference/water_system/water_install/</loc>
          <lastmod>2021-12-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
