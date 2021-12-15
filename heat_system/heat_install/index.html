@@ -9,7 +9,7 @@
   
   <link rel="canonical" href="https://touchon-docs-xu6d2.ondigitalocean.app/heat_system/heat_install/">
   <link rel="shortcut icon" href="../../img/favicon.ico">
-  <title>Heat install - TouchOn documentation</title>
+  <title>Монтаж - TouchOn documentation</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
 
   <link rel="stylesheet" href="../../css/theme.css" />
@@ -18,7 +18,7 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Heat install";
+    var mkdocs_page_name = "\u041c\u043e\u043d\u0442\u0430\u0436";
     var mkdocs_page_input_path = "heat_system/heat_install.md";
     var mkdocs_page_url = "/heat_system/heat_install/";
   </script>
@@ -55,6 +55,62 @@
                     <li class="toctree-l1"><a class="reference internal" href="../../light_system/light_install/">Подключение</a>
                     </li>
                 </ul>
+                <p class="caption"><span class="caption-text">Розетки</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../power_supply/power_overview/">Описание</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../power_supply/power_install/">Подключение</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Отопление</span></p>
+                <ul class="current">
+                    <li class="toctree-l1"><a class="reference internal" href="../heat_overview/">Описание</a>
+                    </li>
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Монтаж</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#_2">Сервоприводы</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#_3">Рекомендуемые модели сервоприводов</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#_4">Схема подключения сервоприводов</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_5">Котёл</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_6">Датчик температуры воздуха</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#_7">Характеристики датчика:</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#_8">Схема подключения:</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_9">Датчик температуры тёплого пола</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#_10">Характеристики датчика:</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#_11">Схема подключения:</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#_12">Монтаж датчика</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_13">Датчик температуры и влажности</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#_14">Схема подключения</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_15">Уличный датчик температуры и освещённости</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#_16">Схема подключения</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                    </li>
+                </ul>
       </div>
     </div>
     </nav>
@@ -75,8 +131,12 @@
     <li><a href="../..">Docs</a> &raquo;</li>
     
       
+        
+          <li>Отопление &raquo;</li>
+        
+      
     
-    <li>Heat install</li>
+    <li>Монтаж</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -88,11 +148,156 @@
           <div role="main">
             <div class="section">
               
-                
+                <h1 id="_1">Подключение</h1>
+<h2 id="_2">Сервоприводы</h2>
+<p>Для управления водяным теплым полом и водяными радиаторами используются
+нормально-открытые сервоприводы (NO) 220В. Можно использовать любые
+сервоприводы, в зависимости от конкретной системы отопления.  Для управления
+подачи теплоносителя теплого пола сервоприводы устанавливаются на коллектор
+теплого пола. Сервоприводы можно объединять в группы.</p>
+<p>Для управления радиаторами, сервоприводы устанавливаются, либо на коллектор,
+либо непосредственно на радиатор, в зависимости от конкретной системы отопления
+Сервоприводы  подключаются к любому выходу контроллера на NO контакт.</p>
+<h3 id="_3">Рекомендуемые модели сервоприводов</h3>
+<ul>
+<li>
+<p><strong>STOUT STE-0010</strong>  Электротермический компактный сервопривод, нормально открытый.</p>
+</li>
+<li>
+<p><strong>Gappo G461 220B</strong>  Сервопривод нормально открытый.</p>
+</li>
+<li>
+<p><strong>Gappo G463 220B</strong>  Сервопривод нормально открытый.</p>
+</li>
+<li>
+<p>Или аналогичные.</p>
+</li>
+</ul>
+<h3 id="_4">Схема подключения сервоприводов</h3>
+<p><img alt="Схема подключения сервоприводов" src="../../img/heat_system/servo_install.png" /></p>
+<h2 id="_5">Котёл</h2>
+<p>Для подключения котла к контроллеру  используем контакты подключения комнатного
+регулятора температуры на клеммной колодке котла и любой NC выход контроллера.
+При размыкании цепи контроллером котел будет выключать режим отопления,
+оставаясь в   режиме подогрева воды. По такому принципу подключаются большинство
+электрических и газовых котлов.</p>
+<p>Пример подключения электрического котла Vaillant 18/14.</p>
+<p><img alt="Подключение котла" src="../../img/heat_system/boiler_install.png" /></p>
+<h2 id="_6">Датчик температуры воздуха</h2>
+<p>Датчик температуры построен на базе DS18B20 и использует интерфейс 1wire.
+Подключается к любому цифровому входу. Р14,Р29,Р30-Р44. </p>
+<p><img alt="Датчик температуры" src="../../img/heat_system/temp_sensor.png" /></p>
+<h3 id="_7">Характеристики датчика:</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Электропитание</td>
+<td>12в</td>
+</tr>
+<tr>
+<td>Диапазон измеряемых температур</td>
+<td>От -55 до +125</td>
+</tr>
+<tr>
+<td>Протокол</td>
+<td>1-Wire</td>
+</tr>
+<tr>
+<td>Способ монтажа</td>
+<td>Скрытый, в подрозетник или в корпус</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_8">Схема подключения:</h3>
+<p><img alt="Схема подключения датчика температуры" src="../../img/heat_system/temp_scheme.png" /></p>
+<h2 id="_9">Датчик температуры тёплого пола</h2>
+<p><img alt="Датчик температуры пола" src="../../img/heat_system/temp_floor.png" /></p>
+<p>Датчик температуры построен на базе DS18B20 и использует интерфейс 1wire.
+Подключается к любому цифровому входу. Р14,Р29,Р30-Р44 через плату сопряжения.  </p>
+<h3 id="_10">Характеристики датчика:</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Электропитание</td>
+<td>12в</td>
+</tr>
+<tr>
+<td>Диапазон измеряемых температур</td>
+<td>От -55 до +125</td>
+</tr>
+<tr>
+<td>Протокол</td>
+<td>1-Wire</td>
+</tr>
+<tr>
+<td>Способ монтажа</td>
+<td>Скрытый, в стяжку пола</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_11">Схема подключения:</h3>
+<p><img alt="Схема подключения датчика пола" src="../../img/heat_system/temp_floor_scheme.png" /></p>
+<h3 id="_12">Монтаж датчика</h3>
+<p>Для датчика температуры теплого пола закладывается гладкостенная труба до
+заливки стяжки пола. Труба должна выходить над витками теплого пола, но
+находится в стяжке.  Закладную трубу можно поднять до выключателя или коробки
+Датчика температуры воздуха и произвести там коммутацию.</p>
+<p>Способ монтажа датчика в стяжку пола:</p>
+<p><img alt="Способ монтажа датчика пола" src="../../img/heat_system/temp_floor_install.png" /></p>
+<ul>
+<li>
+<p><strong>При монтаже закладной трубы избегать прямых углов изгиба. Для
+  беспрепятственного монтажа датчика температуры</strong></p>
+</li>
+<li>
+<p><strong>Конец закладной трубы должен находиться над трубами теплого пола 20см от
+  стены</strong></p>
+</li>
+</ul>
+<h2 id="_13">Датчик температуры и влажности</h2>
+<p><img alt="Датчик влажности - обратная сторона" src="../../img/heat_system/htu_sensor_back.png" />
+<img alt="Датчик влажности - лицевая сторона" src="../../img/heat_system/htu_sensor_face.png" /></p>
+<p>Комбинированный датчик температуры и влажности устанавливается в основном в
+санузлах и в помещения, где необходимо принудительно включать вентиляцию. </p>
+<p>HTU21D - крохотный цифровой датчик для шины I2C. Размеры его платы всего 15 х 15
+мм. HTU21D может выдавать значение, как влажности, так и температуры.
+Подключение датчика производится на два любых цифровых порта контроллера.
+Р30-Р43, Р14,Р29  Питание 3.3В тоже берем с соответствующего выхода контроллера. </p>
+<p>Рекомендуем устанавливать датчик на высоте 1,6-1,7 м. Кабель подключения UTP5e.</p>
+<h3 id="_14">Схема подключения</h3>
+<p><img alt="Схема подключения датчика влажности" src="../../img/heat_system/htu_scheme.png" /></p>
+<h2 id="_15">Уличный датчик температуры и освещённости</h2>
+<p><img alt="Уличный датчик освещённости" src="../../img/heat_system/light_sensor.png" />
+<img alt="Плата датчика освещённости" src="../../img/heat_system/light_sensor_plate.png" /></p>
+<p>Комбинированный уличный датчик температуры и освещенности монтируется на
+несолнечной стороне дома. Подключение датчика производится на три любых цифровых
+порта контроллера. Р30-Р43, Р14,Р29  Питание 12В тоже берем с соответствующего
+выхода контроллера.  Кабель подключения UTP5e. </p>
+<h3 id="_16">Схема подключения</h3>
+<p><img alt="Схема подключения датчика освещённости" src="../../img/heat_system/light_install.png" /></p>
               
             </div>
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="../heat_overview/" class="btn btn-neutral" title="Описание"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
   
 
   <hr/>
@@ -115,6 +320,8 @@
   <div class="rst-versions" role="note" aria-label="versions">
   <span class="rst-current-version" data-toggle="rst-current-version">
     
+    
+      <span><a href="../heat_overview/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
     
   </span>

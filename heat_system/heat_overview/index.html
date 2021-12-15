@@ -9,7 +9,7 @@
   
   <link rel="canonical" href="https://touchon-docs-xu6d2.ondigitalocean.app/heat_system/heat_overview/">
   <link rel="shortcut icon" href="../../img/favicon.ico">
-  <title>Heat overview - TouchOn documentation</title>
+  <title>Описание - TouchOn documentation</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
 
   <link rel="stylesheet" href="../../css/theme.css" />
@@ -18,7 +18,7 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Heat overview";
+    var mkdocs_page_name = "\u041e\u043f\u0438\u0441\u0430\u043d\u0438\u0435";
     var mkdocs_page_input_path = "heat_system/heat_overview.md";
     var mkdocs_page_url = "/heat_system/heat_overview/";
   </script>
@@ -55,6 +55,22 @@
                     <li class="toctree-l1"><a class="reference internal" href="../../light_system/light_install/">Подключение</a>
                     </li>
                 </ul>
+                <p class="caption"><span class="caption-text">Розетки</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../power_supply/power_overview/">Описание</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../power_supply/power_install/">Подключение</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Отопление</span></p>
+                <ul class="current">
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Описание</a>
+    <ul class="current">
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../heat_install/">Монтаж</a>
+                    </li>
+                </ul>
       </div>
     </div>
     </nav>
@@ -75,8 +91,12 @@
     <li><a href="../..">Docs</a> &raquo;</li>
     
       
+        
+          <li>Отопление &raquo;</li>
+        
+      
     
-    <li>Heat overview</li>
+    <li>Описание</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -88,11 +108,59 @@
           <div role="main">
             <div class="section">
               
-                
+                <h1 id="_1">Описание</h1>
+<ul>
+<li>
+<p>На каждый контур отопления  и контур теплого пола на коллекторе необходим свой
+  клапан с сервоприводом 220В. Рекомендуется применение нормально открытых
+  клапанов. При отсутствии электроэнергии отопление останется в работоспособном
+  режиме. Кабель 2x0,75  ШВВП  или ПВС от каждой группы контуров до щита. </p>
+</li>
+<li>
+<p>От всех насосов тянем силовой кабель к контролеру</p>
+</li>
+<li>
+<p>Бойлер ГВС силовой + UTP до щита</p>
+</li>
+<li>
+<p>датчики уличной температуры  устанавливаются на несолнечной стороне дома </p>
+</li>
+<li>
+<p>Датчики комнатной температуры воздуха  устанавливаются в подрозетник рядом с
+  выключателем. Ко всем датчикам (температуры, протечки, давления и пр) витая
+  пара UTP cat 5e  4 pr </p>
+</li>
+<li>
+<p>Датчик температуры водяного теплого пола устанавливается через закладную трубу
+  до заливки стяжки. Закладную трубу можно поднять до выключателя или коробки
+  датчика температуры воздуха и произвести там коммутацию. </p>
+</li>
+<li>
+<p>Электрические теплые полы кабель питания напрямую от ЩР до места коммутации +
+  Utp для датчика температуры пола, в пол залить гильзу для монтажа датчика
+  температуры Настенный термостат и комплектный с ним датчик температуры теплого
+  пола не нужен. Используется цифровой датчик температуры (обычно
+  устанавливается скрытно в выключатель или в один корпус с датчиком температуры
+  воздуха</p>
+</li>
+<li>
+<p>Кондиционер: витая пара + силовой Котел электрический  - витай пара до
+  контролера, силовой на отдельный автомат (классически)</p>
+</li>
+</ul>
               
             </div>
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../heat_install/" class="btn btn-neutral float-right" title="Монтаж">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../../power_supply/power_install/" class="btn btn-neutral" title="Подключение"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
   
 
   <hr/>
@@ -116,6 +184,10 @@
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
+      <span><a href="../../power_supply/power_install/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../heat_install/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
