@@ -2,57 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://touchondocs.github.io/touchon_reference/</loc>
-         <lastmod>2021-12-15</lastmod>
+         <lastmod>2021-12-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://touchondocs.github.io/touchon_reference/malfunction/</loc>
-         <lastmod>2021-12-15</lastmod>
+         <lastmod>2021-12-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://touchondocs.github.io/touchon_reference/curtain_system/curtain_install/</loc>
+         <lastmod>2021-12-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://touchondocs.github.io/touchon_reference/heat_system/heat_install/</loc>
-         <lastmod>2021-12-15</lastmod>
+         <lastmod>2021-12-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://touchondocs.github.io/touchon_reference/heat_system/heat_malfunction/</loc>
-         <lastmod>2021-12-15</lastmod>
+         <lastmod>2021-12-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://touchondocs.github.io/touchon_reference/heat_system/heat_overview/</loc>
-         <lastmod>2021-12-15</lastmod>
+         <lastmod>2021-12-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://touchondocs.github.io/touchon_reference/light_system/light_install/</loc>
-         <lastmod>2021-12-15</lastmod>
+         <lastmod>2021-12-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://touchondocs.github.io/touchon_reference/light_system/light_malfunction/</loc>
-         <lastmod>2021-12-15</lastmod>
+         <lastmod>2021-12-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://touchondocs.github.io/touchon_reference/light_system/light_overview/</loc>
-         <lastmod>2021-12-15</lastmod>
+         <lastmod>2021-12-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://touchondocs.github.io/touchon_reference/power_supply/power_install/</loc>
-         <lastmod>2021-12-15</lastmod>
+         <lastmod>2021-12-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://touchondocs.github.io/touchon_reference/power_supply/power_overview/</loc>
-         <lastmod>2021-12-15</lastmod>
+         <lastmod>2021-12-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://touchondocs.github.io/touchon_reference/sensors/sensors_install/</loc>
+         <lastmod>2021-12-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://touchondocs.github.io/touchon_reference/water_system/water_install/</loc>
-         <lastmod>2021-12-15</lastmod>
+         <lastmod>2021-12-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
