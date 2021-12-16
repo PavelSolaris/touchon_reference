@@ -20,6 +20,10 @@ nav:
 #   - 'Возможные неисправности': 'heat_system/heat_malfunction.md'
   - 'Водоснабжение':
     - 'Подключение': 'water_system/water_install.md'
+  - 'Электрокарнизы и ворота':
+    - 'Подключение': 'curtain_system/curtain_install.md'
+  - 'Датчики':
+    - 'Подключение': 'sensors/sensors_install.md'
 
 theme: 
   name: readthedocs
